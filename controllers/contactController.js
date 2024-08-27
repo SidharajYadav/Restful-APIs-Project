@@ -71,4 +71,4 @@ const getContact = asyncHandler(async(req, res) => {
     createContact,
     personContact,
     updateContact,
-    delectContact};
+    delectContact}; 
