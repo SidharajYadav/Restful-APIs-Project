@@ -14,7 +14,7 @@ const errorHandler = require('./middleware/errorHandler');
 const dotenv = require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 5002;
-
+ 
 // Middleware to parse JSON
 app.use(express.json());
 
